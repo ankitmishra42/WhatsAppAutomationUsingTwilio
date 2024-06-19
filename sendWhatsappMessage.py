@@ -81,13 +81,13 @@ logging.info("Finished sending WhatsApp messages.")
 # #Twilio oficial code
 # from twilio.rest import Client
 
-# account_sid = 'AC665866baf1411efa94b776afaff80707'
-# auth_token = '1f319bdcbc54f279c31790b9b7a2ce33'
+# account_sid = 'Put here sid provided by twilio'
+# auth_token = 'Put here auth token provided by twilio'
 # client = Client(account_sid, auth_token)
 
 # message = client.messages.create(
-#   from_='whatsapp:+14155238886',
+#   from_='whatsapp:Put here whasapp number provided by twilio',
 #   body='Your appointment is coming up on July 21 at 3PM',
-#   to='whatsapp:+918601008535'
+#   to='whatsapp:Put here your whasapp number'
 # )
 # print(message.sid)
