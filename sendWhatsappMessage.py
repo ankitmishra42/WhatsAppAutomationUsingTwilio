@@ -90,5 +90,4 @@ logging.info("Finished sending WhatsApp messages.")
 #   body='Your appointment is coming up on July 21 at 3PM',
 #   to='whatsapp:+918601008535'
 # )
-
 # print(message.sid)
