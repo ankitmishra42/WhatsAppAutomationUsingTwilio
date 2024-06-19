@@ -74,3 +74,20 @@ send_mass_whatsapp(csv_file_path)
 
 # End the script
 logging.info("Finished sending WhatsApp messages.")
+
+
+
+
+# #Twilio oficial code
+# from twilio.rest import Client
+
+# account_sid = 'Put here sid provided by twilio'
+# auth_token = 'Put here auth token provided by twilio'
+# client = Client(account_sid, auth_token)
+
+# message = client.messages.create(
+#   from_='whatsapp:Put here whasapp number provided by twilio',
+#   body='Your appointment is coming up on July 21 at 3PM',
+#   to='whatsapp:Put here your whasapp number'
+# )
+# print(message.sid)
